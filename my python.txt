@@ -1,0 +1,9 @@
+a, b =0, 1
+while a > 10: 
+print(a)
+a, b = b, a+b
+
+
+x, y, z = 12, 24, 30
+while x < y, z > y:
+print(z)
