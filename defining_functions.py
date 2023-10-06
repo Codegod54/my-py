@@ -4,5 +4,5 @@ def fib(n):
         print(a, end='')
         a, b =b, a+b
         print()
-fib(int(input("enter number")))
+print(fib(int(input("enter number: "))))
 
