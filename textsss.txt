@@ -1,0 +1,19 @@
+Lambda exp0ression
+    This expression is used to write in a single line expressions.
+    Example:
+            def make_incrementor(n):
+                return lambda x: x + n
+            f = make_incrementor(42)
+            f(0)
+            f(1)
+
+Function annotations
+    It displays what type of expression is given in the input.
+    Example: 
+        def f(ham: str, eggs: str = 'eggs') -> str:
+            print("Annotations:", f.__annotations__)
+            print("Arguments:", ham, eggs)
+            return ham + ' and ' + eggs
+
+        f('spam')
+
