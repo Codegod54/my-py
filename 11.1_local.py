@@ -10,4 +10,4 @@ conv = locale.localeconv()                  # get a mappijnng of conventions
 x = 1234567.8
 print(locale.format("%d", x, grouping = True))
 
-print(locale.format_string("%s%.f", (conv['currency_symbol'], conv['frac_digits'], x), grouping = True))
+print(locale.format_string("%s%.*f", (conv['currency_symbol'], conv['frac_digits'], x), grouping = True))
