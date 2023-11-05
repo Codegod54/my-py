@@ -6,7 +6,7 @@ for n in range(2, 10):
             break
     else:
 # Loop fell through without finding a factor
-        print(n, 'is s prime number')
+        print(n, 'is prime number')
 
 
 
