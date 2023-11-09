@@ -1,0 +1,38 @@
+Classes
+
+Class is a blueprint or logical entitiy for an object.
+
+Object Like :-
+    Real world entity has some properties or behaviour which is represented by class vaariables & methods in programming.
+
+Syntax: class class_Name:
+    # Variables
+    # Methods
+
+
+Object 
+
+As we know class is a logical entity while an object is a physical or real entity that works zon clause data.
+
+Note:
+    1) Each object has a distinct role or responsibility.
+    2) Object creates space on memory as per class members.
+
+Syntax: obj_name = class_name()
+
+
+
+
+
+Python Scopes and Namespace
+
+Namespace in Python
+In python namespace is a collection of names. Which holds as a mapping of every name, we have defined, to corresponding Objects.
+
+Different namespace can co-exist at a given time but are completely isolated.
+
+A namespace containing all the built-in names is created when we statr the python interpreter and exists as long we don't exit.
+
+Modules can have various functions and classes. A local name space is created when a function is called, which has all the names defined in it.
+
+
