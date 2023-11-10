@@ -28,3 +28,4 @@ print_method () # Calls the print_value method on 'obj' which prints the value (
 
 double_method () # Calls the double_value method on 'obj', doubling the value to 10
 
+print_method () # Calls the print_value method on 'obj' which prints the value after changing the value (10)
